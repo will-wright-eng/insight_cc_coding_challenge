@@ -20,7 +20,7 @@ For each financial product and year:
 
 ## Repo Directory
 
-├── README.md
+├── README.md  
 ├── run.sh    
 ├── src    
 │   └── consumer_complaints.py    
@@ -29,8 +29,8 @@ For each financial product and year:
 ├── output    
 |   └── report.csv    
 ├── insight_testsuite    
-    └── tests    
-        └── test_1    
+    └── tests  
+    	└── test_1    
         |   ├── input    
         |   │   └── complaints.csv    
         |   |__ output    
