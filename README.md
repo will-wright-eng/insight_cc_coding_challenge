@@ -21,22 +21,22 @@ For each financial product and year:
 ## Repo Directory
 
 ├── README.md
-├── run.sh
-├── src
-│   └── consumer_complaints.py
-├── input
-│   └── complaints.csv
-├── output
-|   └── report.csv
-├── insight_testsuite
-    └── tests
-        └── test_1
-        |   ├── input
-        |   │   └── complaints.csv
-        |   |__ output
-        |   │   └── report.csv
-        ├── your-own-test_1
-            ├── input
-            │   └── complaints.csv
-            |── output
-                └── report.csv
+├── run.sh    
+├── src    
+│   └── consumer_complaints.py    
+├── input    
+│   └── complaints.csv    
+├── output    
+|   └── report.csv    
+├── insight_testsuite    
+    └── tests    
+        └── test_1    
+        |   ├── input    
+        |   │   └── complaints.csv    
+        |   |__ output    
+        |   │   └── report.csv    
+        ├── your-own-test_1    
+            ├── input    
+            │   └── complaints.csv    
+            |── output    
+                └── report.csv    
