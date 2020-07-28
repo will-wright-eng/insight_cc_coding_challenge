@@ -20,18 +20,20 @@ col_date = 'Date received'
 results = []
 r = []
 # product loop
-for p in list(set(d[col_prod])):
+prods = list(set(d[col_prod]))
+prods.sort()
+for p in prods:
     # positions
     pos = [i for i, e in enumerate(d[col_prod]) if e == p]
     # corresponding dates
     dates = [d[col_date][i].split('-')[0] for i in pos]
     # date loop
-    for x in list(set(dates)):
+    ates = list(set(dates))
+    ates.sort()
+    for x in ates:
         results.append(generate_results_list(d,p,x,dates))
 
 ## LOAD ##
 print('load')
-# field names
-fields = ['product','year','complaint_count','company_count*','complaint_percent_by_worst_company']
 # write file
 write_results_to_csv(fields,csv_output,results)

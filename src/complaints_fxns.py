@@ -44,7 +44,7 @@ def generate_results_list(d,p,x,dates):
     comp_count = Counter(comps)
     complaint_percent_by_worst_company = round(
         max(comp_count.items(), key=operator.itemgetter(1))[1]/len(comps)
-        ,2)
+        ,2)*100
     comp_count = greater_than_one(comp_count)
     # generate row
     return [p
@@ -66,16 +66,14 @@ def greater_than_one(comp_count):
             pass
     return comp_count_mod
 
-def write_results_to_csv(fields,filepath,results):
+def write_results_to_csv(filepath,results):
     '''docstring for write_results_to_csv
     input: column headers, filepath from command line arg, and results list of lists
     output: saved csv file'''
     # writing to csv file  
     with open(filepath, 'w') as csvfile:  
         # creating a csv writer object  
-        csvwriter = csv.writer(csvfile)  
-        # writing the fields  
-        csvwriter.writerow(fields)
+        csvwriter = csv.writer(csvfile)
         # writing the data rows  
         csvwriter.writerows(results)
     return print('csv saved to '+filepath)
