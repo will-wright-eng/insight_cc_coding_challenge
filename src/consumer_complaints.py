@@ -36,4 +36,4 @@ for p in prods:
 ## LOAD ##
 print('load')
 # write file
-write_results_to_csv(fields,csv_output,results)
+write_results_to_csv(csv_output,results)
