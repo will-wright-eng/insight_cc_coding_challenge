@@ -5,7 +5,7 @@ from complaints_fxns import open_and_read_csv, csv_data_to_dict, generate_result
 
 # command line arguments
 filename, csv_input, csv_output = sys.argv
-+
+
 ## EXTRACT ##
 print('extract')
 # create dictionary from csv data
