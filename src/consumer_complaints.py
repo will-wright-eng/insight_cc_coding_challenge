@@ -28,10 +28,10 @@ for p in prods:
     # corresponding dates
     dates = [d[col_date][i].split('-')[0] for i in pos]
     # date loop
-    ates = list(set(dates))
-    ates.sort()
-    for x in ates:
-        results.append(generate_results_list(d,p,x,dates))
+    years = list(set(dates))
+    years.sort()
+    for x in years:
+        results.append(generate_results_list(d,p.lower(),x,dates))
 
 ## LOAD ##
 print('load')
