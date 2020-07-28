@@ -42,15 +42,17 @@ def generate_results_list(d,p,x,dates):
     comps = [d[col_comp][i].split('-')[0] for i in pos]
     # company dict
     comp_count = Counter(comps)
+    comp_num = len(comp_count)
     complaint_percent_by_worst_company = round(
         max(comp_count.items(), key=operator.itemgetter(1))[1]/len(comps)
         ,2)*100
     comp_count = greater_than_one(comp_count)
     # generate row
+    # product | year | complaint count | number of companies (>1) | high percentage of complaints
     return [p
             , x
             , date_count[x]
-            , len(comp_count)
+            , comp_num
             , complaint_percent_by_worst_company]
 
 def greater_than_one(comp_count):
