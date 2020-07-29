@@ -1,6 +1,26 @@
 import csv
-from collections import Counter
+import collections
 import operator
+
+def test_datatypes(test_dict):
+    '''docstring for test_datatypes'''
+    # test for OrderedDict
+    if collections.OrderedDict==type(test_dict):
+        pass
+        if len(test_dict) == 18:
+            pass
+        else:
+            print('Warning: OrderedDict of unexpected length')
+    else:
+        raise Exception('data type other than expected')
+    # test for strings as values in OrderedDict
+    for k in test_dict:
+        if isinstance(test_dict[k],str):
+            pass
+        else:
+            raise Exception('data type other than expected')
+            break
+    return
 
 def open_and_read_csv(filepath):
     '''docstring for open_and_read_csv
@@ -21,6 +41,7 @@ def csv_data_to_dict(my_data):
     l = []
     keys = list(dict(my_data[0]))
     l = [[my_data[0][i]] for i in keys]
+    test_datatypes(my_data[0])
     # extract remaining data into list of lists
     for i in my_data[1:]:
         for j in range(len(keys)):
@@ -34,14 +55,14 @@ def generate_results_list(d,p,x,dates):
     '''docstring for generate_results_list
     input: dictionary of complaints data, product, and set of years
     output: single row in results output'''
-    date_count = Counter(dates)
+    date_count = collections.Counter(dates)
     # positions by date
     pos = [i for i, e in enumerate(dates) if e.split('-')[0] == x]
     # corresponding companies
     col_comp = 'Company'
     comps = [d[col_comp][i].split('-')[0] for i in pos]
     # company dict
-    comp_count = Counter(comps)
+    comp_count = collections.Counter(comps)
     comp_num = len(comp_count)
     complaint_percent_by_worst_company = round(
         max(comp_count.items(), key=operator.itemgetter(1))[1]/len(comps)
