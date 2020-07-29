@@ -1,0 +1,98 @@
+bank account or service,2012,12212,959,18.0
+bank account or service,2013,13388,1031,18.0
+bank account or service,2014,14662,1080,18.0
+bank account or service,2015,17140,1167,17.0
+bank account or service,2016,21848,1285,18.0
+bank account or service,2017,6956,744,18.0
+checking or savings account,2017,12763,980,16.0
+checking or savings account,2018,21211,1271,16.0
+checking or savings account,2019,21740,1293,22.0
+checking or savings account,2020,12805,990,18.0
+consumer loan,2012,1986,349,23.0
+consumer loan,2013,3117,475,21.0
+consumer loan,2014,5457,673,22.0
+consumer loan,2015,7886,779,21.0
+consumer loan,2016,9601,878,20.0
+consumer loan,2017,3557,526,20.0
+credit card,2011,1260,262,17.0
+credit card,2012,15353,1061,18.0
+credit card,2013,13105,1046,17.0
+credit card,2014,13974,1045,18.0
+credit card,2015,17300,1167,17.0
+credit card,2016,21065,1280,17.0
+credit card,2017,7133,767,18.0
+credit card or prepaid card,2017,15404,1072,16.0
+credit card or prepaid card,2018,24248,1364,16.0
+credit card or prepaid card,2019,25835,1418,21.0
+credit card or prepaid card,2020,17999,1167,17.0
+credit reporting,2012,1873,340,19.0
+credit reporting,2013,14380,1036,16.0
+credit reporting,2014,29239,1473,17.0
+credit reporting,2015,34272,1576,16.0
+credit reporting,2016,44081,1723,16.0
+credit reporting,2017,16587,1166,18.0
+"credit reporting, credit repair services, or other personal consumer reports",2017,73394,1918,19.0
+"credit reporting, credit repair services, or other personal consumer reports",2018,111625,2131,22.0
+"credit reporting, credit repair services, or other personal consumer reports",2019,138594,2652,17.0
+"credit reporting, credit repair services, or other personal consumer reports",2020,129842,2490,17.0
+debt collection,2013,11069,878,16.0
+debt collection,2014,39139,1584,16.0
+debt collection,2015,39724,1598,17.0
+debt collection,2016,40466,1567,18.0
+debt collection,2017,47953,1780,15.0
+debt collection,2018,51184,1791,17.0
+debt collection,2019,46404,1765,18.0
+debt collection,2020,27628,1434,16.0
+"money transfer, virtual currency, or money service",2017,3266,503,23.0
+"money transfer, virtual currency, or money service",2018,5433,614,23.0
+"money transfer, virtual currency, or money service",2019,5086,637,25.0
+"money transfer, virtual currency, or money service",2020,4439,583,22.0
+money transfers,2013,559,166,28.999999999999996
+money transfers,2014,1169,268,25.0
+money transfers,2015,1619,323,26.0
+money transfers,2016,1567,307,25.0
+money transfers,2017,440,131,27.0
+mortgage,2011,1276,257,15.0
+mortgage,2012,38109,1620,15.0
+mortgage,2013,49400,1759,16.0
+mortgage,2014,42961,1660,15.0
+mortgage,2015,42345,1612,16.0
+mortgage,2016,41466,1646,17.0
+mortgage,2017,30576,1439,15.0
+mortgage,2018,24575,1254,19.0
+mortgage,2019,22707,1310,21.0
+mortgage,2020,12735,998,17.0
+other financial service,2014,116,51,23.0
+other financial service,2015,312,106,28.999999999999996
+other financial service,2016,465,137,28.000000000000004
+other financial service,2017,166,68,27.0
+payday loan,2013,194,78,23.0
+payday loan,2014,1706,325,26.0
+payday loan,2015,1585,333,26.0
+payday loan,2016,1565,311,25.0
+payday loan,2017,493,134,25.0
+"payday loan, title loan, or personal loan",2017,2958,448,23.0
+"payday loan, title loan, or personal loan",2018,4368,588,22.0
+"payday loan, title loan, or personal loan",2019,4323,582,26.0
+"payday loan, title loan, or personal loan",2020,2428,391,24.0
+prepaid card,2014,336,111,24.0
+prepaid card,2015,1784,346,27.0
+prepaid card,2016,1250,270,28.999999999999996
+prepaid card,2017,449,145,23.0
+student loan,2012,2840,466,19.0
+student loan,2013,3005,462,16.0
+student loan,2014,4283,568,17.0
+student loan,2015,4501,567,17.0
+student loan,2016,8087,787,16.0
+student loan,2017,17173,1158,19.0
+student loan,2018,8776,825,18.0
+student loan,2019,7212,778,23.0
+student loan,2020,2826,448,22.0
+vehicle loan or lease,2017,3694,506,23.0
+vehicle loan or lease,2018,5892,675,22.0
+vehicle loan or lease,2019,5488,662,25.0
+vehicle loan or lease,2020,3417,490,23.0
+virtual currency,2014,1,1,100.0
+virtual currency,2015,7,6,28.999999999999996
+virtual currency,2016,7,6,28.999999999999996
+virtual currency,2017,3,2,67.0
