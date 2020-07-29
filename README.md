@@ -2,6 +2,7 @@
 by William Wright  
 
 ![cfpb](https://github.com/william-cass-wright/insight_cc_coding_challenge/blob/master/images/cfpb.png)
+[Reference repo](https://github.com/insightdatascience/consumer_complaints)
 
 ## Objectives
 For each financial product and year: 
